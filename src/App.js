@@ -7,16 +7,17 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Experience from "./components/Experience";
 import Work from "./components/Work";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Skills />
-      <Experience/>
-      <Work/>
-      <Contact />
-    </main>
+      <BrowserRouter>
+          <Routes>
+              <Route exact path='/' element={<Home/>} />
+              <Route path='/login' element={<Login/>} />
+          </Routes>
+    </BrowserRouter>
   );
 }

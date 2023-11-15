@@ -59,3 +59,18 @@ export const skills = [
   "AWS",
   "MySQL",
 ];
+
+export const technologies = [
+  {
+    name: "Figma",
+    image: "./figma.png"
+  },
+  {
+    name: "MongoDB",
+    image: "./mongodb.png"
+  },
+  {
+    name: "React",
+    image: "./react.png"
+  }
+]
