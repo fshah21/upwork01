@@ -14,18 +14,6 @@ export default function About() {
           exceptional digital experiences that are fast, accessible, visually appealing and responsive. Even though I 
           have been creating web applications for over 7 years, I still love it as if it was something new. 
           </p>
-          {/* <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div> */}
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
@@ -86,18 +74,6 @@ export default function About() {
           <p className="mb-4 leading-relaxed">
             One last thing, I am available for freelance work, so feel free to reach out and say hello! I promise I don't bite. 
           </p>
-          {/* <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div> */}
         </div>
         </div>
       </div>
