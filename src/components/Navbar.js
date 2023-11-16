@@ -14,11 +14,20 @@ export default function Navbar() {
           <a href="#projects" className="ml-5 hover:text-white">
             About
           </a>
-          <a href="#skills" className="ml-5 hover:text-white">
+          <a href="/#skills" className="ml-5 hover:text-white">
             Skills
           </a>
-          <a href="#experience" className="ml-5 hover:text-white">
+          <a href="/#experience" className="ml-5 hover:text-white">
             Experience
+          </a>
+          <a href="/blog" className="ml-5 hover:text-white">
+            Blog
+          </a>
+          <a href="/project" className="ml-5 hover:text-white">
+            Projects
+          </a>
+          <a href="/ctf" className="ml-5 hover:text-white">
+            CTF Challenges
           </a>
           <a href="#testimonials" className="ml-5 hover:text-white">
             Contact
