@@ -7,6 +7,44 @@ import { HashLink } from 'react-router-hash-link';
 export default function Navbar() {
 
   const pages = ['blog', 'projects', 'ctf'];
+  const handleDownloadCV = async () => {
+    try {
+      console.log("HANDLE DOWNLOAD CV");
+      // Replace 'your_cv.pdf' with the actual path to your PDF file
+      const pdfUrl = 'cv.pdf';
+
+      // Fetch the PDF file
+      const response = await fetch(pdfUrl);
+      console.log(response);
+
+      // Check if the request was successful
+      if (!response.ok) {
+        throw new Error('Failed to fetch PDF file');
+      }
+
+      // Convert the response to a blob
+      const pdfBlob = await response.blob();
+
+      // Create a download link
+      const link = document.createElement('a');
+      link.href = window.URL.createObjectURL(pdfBlob);
+
+      // Set the filename for the download
+      link.download = 'cv.pdf';
+
+      // Append the link to the document
+      document.body.appendChild(link);
+
+      // Trigger the download
+      link.click();
+
+      // Remove the link from the document
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Error downloading PDF:', error);
+    }
+  }
+
 
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
@@ -62,6 +100,14 @@ export default function Navbar() {
                 Contact
               </HashLink>
             </li>
+            <li className="ml-5 hover:text-white">
+                <button
+                  className="bg-gray-900 text-white px-4 py-2 rounded"
+                  onClick={() => handleDownloadCV()}
+                >
+                  Download CV
+                </button>
+              </li>
           </ul>
         </nav>
       </div>

@@ -85,7 +85,7 @@ export default function Content() {
         {posts.map((post) => (
             <div className="flex flex-col max-w-sm bg-white border border-gray-200 h-2/5 w-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 bg-gray-800 border border-gray-800 mx-10 mt-10" style={containerStyle} key={post.ID} onClick={() => handleClick(post.urlCategory)}>
                 <a href="#">
-                    <img className="rounded-t-lg w-fit h-60" src={post.featured_image} alt="" />
+                    <img className="rounded-t-lg w-auto h-60 object-cover object-center" src={post.featured_image} alt="" />
                 </a>
                 <div class="p-10 w:1/3">
                     <a href="#">
