@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 
-const BlogPosts = () => {
+const ProjectPosts = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/example90078.wordpress.com/posts?category=blog');
+        const response = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/example90078.wordpress.com/posts?category=project');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -28,7 +28,7 @@ const BlogPosts = () => {
         <Navbar/>
         <div className="container mx-auto flex flex-col items-center">
             <button className="text-2xl font-bold text-white font-bold p-4 flex flex-col items-center text-capitalize">
-             Blog
+             Projects
             </button>
         </div>
         {posts.map((post) => (
@@ -44,4 +44,4 @@ const BlogPosts = () => {
   );
 };
 
-export default BlogPosts;
+export default ProjectPosts;

@@ -1,45 +1,47 @@
 import React from "react";
+import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 
 export default function About() {
   return (
     <section id="about">
       <div>
       <div className="container mx-auto flex px-10 mb-10 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-center mb-16 md:mb-0 items-center lg:text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Nehaal Prasad.
           </h1>
-          <p className="mb-2 leading-relaxed">
-          I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) 
-          exceptional digital experiences that are fast, accessible, visually appealing and responsive. Even though I 
-          have been creating web applications for over 7 years, I still love it as if it was something new. 
+          <p className="mb-2 leading-relaxed text-center">
+          Graduate Consultant looking to expand my skill set into the cyber security field. Personally, and 
+          professionally invested within cybersecurity through relevant certifications to further my interests. 
+          Passionate individual looking to help organisations keep their intellectual property secure.
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
           <img
             className="object-cover object-center mt-20 rounded w-96 h-96 border-4" 
             alt="hero"
-            src="./photo1.jpg"
+            src="./nehaal.jpg"
           />
         </div>
       </div>
       
       <div className="container mx-auto flex flex-col items-center mb-30">
-        <div className="container mx-auto flex flex-col items-center mb-10">
-            <button class="text-2xl font-bold text-white font-bold p-4 flex flex-col items-center">
-             About me
-            </button>
+      <div className="text-center mb-2">
+          <ChipIcon className="w-10 inline-block mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+            About Me
+          </h1>
         </div>
-        <div className="container mx-auto flex px-10 mb-20 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
+        <div className="container mx-auto flex px-10 mb-20 md:flex-row flex-col items-center text-center">
+        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          {/* <img
             className="object-cover object-center md:mb-20 rounded-full w-96 h-96 border-4"
             alt="hero"
             src="./photo2.jpg"
           />
-        </div>
-        <div className="lg:flex-grow md:w-1/2 lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-white">
+        </div> */}
+        <div className="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-white text-center">
             Curious about me? Here you have it :
           </h1>
           <p className="mb-4 leading-relaxed">

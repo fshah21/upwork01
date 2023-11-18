@@ -51,13 +51,12 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Go",
-  "Node",
-  "Java",
-  "AWS",
-  "MySQL",
+  "Programming - Python, C++",
+  "Microsoft Office Experience - Report Writing (Penetration Testing Reports) and Presentations",
+  "Pentesting - TryHackme Modules, eJPT, CTF's (TryHackMe)",
+  "IT Support and Services - Experience with various tools such as Active Directory Automation tools and ticketing systems",
+  "Networking Fundamentals",
+  "Linux and Windows OS Experience",
 ];
 
 export const technologies = [
