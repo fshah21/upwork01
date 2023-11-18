@@ -1,14 +1,16 @@
 import React from "react";
+import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 
 const skills = ["React, Nodejs"];
 
 export default function Experience() {
     return (
       <section id="experience" className="text-gray-400 bg-gray-900 body-font">
-        <div className="container mx-auto flex flex-col items-center">
-            <button class="text-2xl font-bold text-white font-bold p-4 flex flex-col items-center">
-             Work
-            </button>
+        <div className="text-center mb-2">
+          <ChipIcon className="w-10 inline-block mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+            Work
+          </h1>
         </div>
         <div className="container px-5 py-2 mx-auto flex-col justify-center items-center">
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-center mb-10">

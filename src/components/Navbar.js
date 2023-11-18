@@ -53,6 +53,11 @@ export default function Navbar() {
               <Link to="/ctf">CTF Challenges</Link>
             </li>
             <li className="ml-5 hover:text-white">
+              <HashLink to="/#content" smooth={true} duration={500}>
+                Content
+              </HashLink>
+            </li>
+            <li className="ml-5 hover:text-white">
               <HashLink to="/#contact" smooth={true} duration={500}>
                 Contact
               </HashLink>

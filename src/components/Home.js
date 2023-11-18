@@ -7,7 +7,7 @@ import SkillsNew from "./SkillsNew";
 import Testimonials from "./Testimonials";
 import Experience from "./Experience";
 import Work from "./Work";
-// import Content from "./Content";
+import Content from "./Content";
 
 export default function Home() {
     return (
@@ -17,7 +17,7 @@ export default function Home() {
             <SkillsNew />
             <Experience/>
             <Work/>
-            {/* <Content/> */}
+            <Content/>
             <Contact />
         </div>
     );
