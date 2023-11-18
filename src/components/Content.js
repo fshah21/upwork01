@@ -3,9 +3,9 @@ import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 
 export default function Content() {
     const [posts, setPosts] = useState([]);
+    const [categories, setCategories] = useState(["Blog", "Projects", "CTF Challenges"])
 
     useEffect(() => {
-      console.log("CONTENT FUNCTION");
       const fetchPosts = async () => {
         try {
           var response = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/example90078.wordpress.com/posts?category=blog&order=DESC&number=1');
@@ -14,33 +14,29 @@ export default function Content() {
           }
           var data = await response.json();
           var blogPost = data.posts[0];
-          console.log("BLOG POST");
-          console.log(blogPost);
+          blogPost.category = "Blog";
+          
           var response = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/example90078.wordpress.com/posts?category=project&order=DESC&number=1');
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
           var data = await response.json();
           var projectPost = data.posts[0];
-          console.log("PROJECT POST");
-          console.log(projectPost);
+          projectPost.category = "Projects";
+         
           var response = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/example90078.wordpress.com/posts?category=ctf&order=DESC&number=1');
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
           var data = await response.json();
           var ctfPost = data.posts[0];
-          console.log("CTF POST");
-          console.log(ctfPost);
+          ctfPost.category = "CTF Challenges";
 
           var posts = [blogPost, projectPost, ctfPost];
           
           setPosts( // Replace the state
             posts
         );
-
-          console.log("POSTS");
-          console.log(posts);
 
         } catch (error) {
           console.error('Error fetching posts:', error);
@@ -54,6 +50,16 @@ export default function Content() {
         height: '550px'
     };
 
+    const categoryStyle = {
+        marignTop: '500px'
+    };
+
+    const handleClick = (e, category) => {
+        // e.preventDefault();
+        console.log("HANDLE CLICK");
+        console.log(category);
+    }   
+
   return (
     <section id="content">
         <div className="text-center mb-2">
@@ -64,7 +70,7 @@ export default function Content() {
         </div>
         <div className="m-2 flex items-center justify-center mb-20">
         {posts.map((post) => (
-            <div className="max-w-sm bg-white border border-gray-200 h-2/5 w-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 bg-gray-800 border border-gray-800 m-10" style={containerStyle} key={post.ID}>
+            <div className="flex flex-col max-w-sm bg-white border border-gray-200 h-2/5 w-fit rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 bg-gray-800 border border-gray-800 mx-10 mt-10" style={containerStyle} key={post.ID} onClick={() => handleClick(post.category)}>
                 <a href="#">
                     <img className="rounded-t-lg w-fit h-60" src={post.featured_image} alt="" />
                 </a>
@@ -79,9 +85,10 @@ export default function Content() {
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
                     </a>
+                    <p className="text-2xl p-4 font-bold text-white text-center mb-0" style={categoryStyle}>{post.category}</p>
                 </div>
             </div>
-        ))};
+        ))}
         </div>
     </section>
   );
