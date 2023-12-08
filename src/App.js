@@ -17,7 +17,7 @@ import EachBlogPost from "./components/EachBlogPost";
 
 export default function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/upwork01">
           <Routes>
               <Route exact path='/' element={<Home/>} />
               <Route path='/login' element={<Login/>} />

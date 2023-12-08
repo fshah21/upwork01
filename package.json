@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fshah21.github.io/upwork01",
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^16.3.0",
     "@contentful/rich-text-react-renderer": "^15.19.0",
@@ -24,7 +25,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,10 +57,15 @@
     "autoprefixer": "^9.8.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "core-js": "^3.33.2",
+    "gh-pages": "^6.1.0",
     "postcss": "^7.0.36",
     "regenerator-runtime": "^0.14.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fshah21/upwork01.git"
+  },  
   "browserslist": [
     ">0.2%",
     "not dead",
