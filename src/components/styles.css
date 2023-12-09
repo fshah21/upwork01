@@ -61,3 +61,15 @@
     gap: 8px;
     margin: 10px;
   }
+
+  .markdown-content h1 {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .markdown-content h2 {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+  }

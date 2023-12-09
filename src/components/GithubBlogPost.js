@@ -7,11 +7,12 @@ const GithubBlogPost = () => {
   const source = `
 # Hello, world!
 ---
-~this doesn't work.~`
+## Hello to you!`
 
   return (
-    <ReactMarkdown children={source}>
-    </ReactMarkdown>
+    <div className="markdown-content">
+        <ReactMarkdown children={source}></ReactMarkdown>
+    </div>
   );
 };
 
