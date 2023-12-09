@@ -20,7 +20,7 @@ export default function About() {
           <img
             className="object-cover object-center mt-20 rounded w-96 h-96 border-4" 
             alt="hero"
-            src="./nehaal.jpg"
+            src={`${process.env.PUBLIC_URL}/nehaal.jpg`}
           />
         </div>
       </div>

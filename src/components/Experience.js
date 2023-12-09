@@ -15,7 +15,7 @@ export default function Experience() {
             Here is a quick summary of my most recent experiences:
           </p>
           <div class="lg:w-4/5 md:w-4/5 flex flex-col mx-auto items-center bg-gray-800 border border-gray-800 rounded-lg shadow md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:bg-slate-800 mb-10">
-            <img class="rounded-t-lg lg:h-30 lg:w-72 p-10 object-cover" src="/delloite.png" alt="upwork"/>
+            <img class="rounded-t-lg lg:h-30 lg:w-72 p-10 object-cover" src={`${process.env.PUBLIC_URL}/delloite.png`} alt="upwork"/>
             <div class="flex flex-col justify-between p-10 leading-normal">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Graduate Consultant</h5>
                 <ul>
@@ -31,7 +31,7 @@ export default function Experience() {
             </div>
           </div>
           <div class="lg:w-4/5 md:w-4/5 flex flex-col mx-auto items-center bg-gray-800 border border-gray-800 rounded-lg shadow md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:bg-slate-800 mb-10">
-            <img class="rounded-t-lg lg:h-30 lg:w-72 p-10 object-cover" src="/health.png" alt="upwork"/>
+            <img class="rounded-t-lg lg:h-30 lg:w-72 p-10 object-cover" src={`${process.env.PUBLIC_URL}/health.png`} alt="upwork"/>
             <div class="flex flex-col justify-between p-10 leading-normal">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Service Desk Analyst</h5>
                 <ul>
@@ -45,7 +45,7 @@ export default function Experience() {
               </div>
           </div>
           <div class="lg:w-4/5 md:w-4/5 flex flex-col mx-auto items-center bg-gray-800 border border-gray-800 rounded-lg shadow md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:bg-slate-800 mb-10">
-            <img class="rounded-t-lg lg:h-30 lg:w-72 p-10 object-cover" src="/omnitech.png" alt="upwork"/>
+            <img class="rounded-t-lg lg:h-30 lg:w-72 p-10 object-cover" src={`${process.env.PUBLIC_URL}/omnitech.png`} alt="upwork"/>
             <div class="flex flex-col justify-between p-10 leading-normal">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Retail assistant and mobile / laptop repairs</h5>
                 <ul>
