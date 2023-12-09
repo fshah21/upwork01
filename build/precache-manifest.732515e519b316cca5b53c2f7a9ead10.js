@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "097985990c51a1e0705a",
+    "revision": "6d2c4335295d7890c4ed",
     "url": "/upwork01/static/css/main.957036b0.chunk.css"
   },
   {
-    "revision": "097985990c51a1e0705a",
-    "url": "/upwork01/static/js/main.43d2a004.chunk.js"
+    "revision": "6d2c4335295d7890c4ed",
+    "url": "/upwork01/static/js/main.33098d76.chunk.js"
   },
   {
     "revision": "cebf9fff4c8641182a60",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/upwork01/static/media/cv.7af31bf5.pdf"
   },
   {
-    "revision": "bd28af87a1f9f96787f64f1eaa1b8205",
+    "revision": "fa616f5998aa4e7230ad8698c7a83b1b",
     "url": "/upwork01/index.html"
   }
 ];
