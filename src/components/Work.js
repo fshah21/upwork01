@@ -17,7 +17,7 @@ export default function Experience() {
             Some of the noteworthy projects that I have built:
           </p>
           <div class="lg:w-4/5 md:w-4/5 flex flex-col mx-auto items-center bg-gray-800 border border-gray-800 rounded-lg shadow md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:bg-slate-800 mb-10 p-4">
-            <img class="rounded-t-lg lg:w-1/2 p-20" src="/upwork.png" alt="upwork"/>
+            <img class="rounded-t-lg lg:w-1/2 p-20" src={`${process.env.PUBLIC_URL}/upwork.png`} alt="upwork"/>
             <div class="flex flex-col justify-between p-4 leading-normal">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Fiskil</h5>
                 <p class="mb-3 list-disc font-normal text-slate-400 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -30,7 +30,7 @@ export default function Experience() {
             </div>
           </div>
           <div class="lg:w-4/5 md:w-4/5 flex flex-col mx-auto items-center bg-gray-800 border border-gray-800 rounded-lg shadow md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:bg-slate-800 mb-10">
-            <img class="rounded-t-lg lg:w-1/2 p-20" src="/upwork.png" alt="upwork"/>
+            <img class="rounded-t-lg lg:w-1/2 p-20" src={`${process.env.PUBLIC_URL}/upwork.png`} alt="upwork"/>
             <div class="flex flex-col justify-between p-4 leading-normal">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Fiskil</h5>
                 <p class="mb-3 list-disc font-normal text-slate-400 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -43,7 +43,7 @@ export default function Experience() {
             </div>
           </div>
           <div class="lg:w-4/5 md:w-4/5 flex flex-col mx-auto items-center bg-gray-800 border border-gray-800 rounded-lg shadow md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:bg-slate-800 mb-10">
-            <img class="rounded-t-lg lg:w-1/2 p-20" src="/upwork.png" alt="upwork"/>
+            <img class="rounded-t-lg lg:w-1/2 p-20" src={`${process.env.PUBLIC_URL}/upwork.png`} alt="upwork"/>
             <div class="flex flex-col justify-between p-4 leading-normal">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Fiskil</h5>
                 <p class="mb-3 list-disc font-normal text-slate-400 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>           
