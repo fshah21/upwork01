@@ -81,7 +81,7 @@
     justify-content: center;
   }
 
-  .markdown-content img {
+  div.markdown-content p img {
     margin-top: 30px;
     height: 400px;
     width: 900px;
