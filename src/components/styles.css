@@ -64,12 +64,14 @@
 
   .markdown-content h1 {
     color: white;
-    font-size: large;
+    font-size: 40px;
     font-weight: bold;
   }
   
   .markdown-content h2 {
     color: white;
-    font-size: medium;
+    font-size: 25px;
     font-weight: bold;
+    margin-top: 20px;
+    justify-content: center;
   }
