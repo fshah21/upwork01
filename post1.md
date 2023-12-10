@@ -6,7 +6,7 @@ Hello, world! Welcome to my blog. I'm excited to share my thoughts, experiences,
 
 I'm **John Doe**, a passionate software developer based in **San Francisco**. I've always had a keen interest in technology, and this blog will serve as a platform for me to share my knowledge and experiences in the world of programming.
 
-![Profile Picture](../harexi.png)
+![Profile Picture](nehaal.jpg)
 
 ## What to Expect
 
