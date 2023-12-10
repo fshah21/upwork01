@@ -18,16 +18,16 @@ import GithubBlogPost from "./components/GithubBlogPost";
 
 export default function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
           <Routes>
-              <Route exact path='/upwork01' element={<Home/>} />
-              <Route path='/upwork01/login' element={<Login/>} />
-              <Route path='/upwork01/blog' element={<BlogPosts />} />
-              <Route path='/upwork01/project' element={<ProjectPosts />} />
-              <Route path='/upwork01/ctf' element={<CTFPosts />} />
-              <Route path='/upwork01/blog-detailed-post' element={<EachBlogPost />} />
-              <Route path='/upwork01/github-detailed-blog-post' element={<GithubBlogPost />} />
+              <Route path='/' element={<Home/>} />
+              <Route path='/login' element={<Login/>} />
+              <Route path='/blog' element={<BlogPosts />} />
+              <Route path='/project' element={<ProjectPosts />} />
+              <Route path='/ctf' element={<CTFPosts />} />
+              <Route path='/blog-detailed-post' element={<EachBlogPost />} />
+              <Route path='/github-detailed-blog-post' element={<GithubBlogPost />} />
           </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
