@@ -1,5 +1,5 @@
 {
-  "main.css": "/upwork01/static/css/main.3e8a8d35.chunk.css",
+  "main.css": "/upwork01/static/css/main.2ac09428.chunk.css",
   "main.js": "/upwork01/static/js/main.6c21793b.chunk.js",
   "main.js.map": "/upwork01/static/js/main.6c21793b.chunk.js.map",
   "runtime~main.js": "/upwork01/static/js/runtime~main.2d5cf5e3.js",
@@ -7,8 +7,8 @@
   "static/js/2.2c18a87d.chunk.js": "/upwork01/static/js/2.2c18a87d.chunk.js",
   "static/js/2.2c18a87d.chunk.js.map": "/upwork01/static/js/2.2c18a87d.chunk.js.map",
   "index.html": "/upwork01/index.html",
-  "precache-manifest.cadf0b76e42d1dc3208ba64714d4b3ef.js": "/upwork01/precache-manifest.cadf0b76e42d1dc3208ba64714d4b3ef.js",
+  "precache-manifest.0fb658006d54ed7ba7a6d1aa16a08eea.js": "/upwork01/precache-manifest.0fb658006d54ed7ba7a6d1aa16a08eea.js",
   "service-worker.js": "/upwork01/service-worker.js",
-  "static/css/main.3e8a8d35.chunk.css.map": "/upwork01/static/css/main.3e8a8d35.chunk.css.map",
+  "static/css/main.2ac09428.chunk.css.map": "/upwork01/static/css/main.2ac09428.chunk.css.map",
   "static/media/cv.pdf": "/upwork01/static/media/cv.7af31bf5.pdf"
 }
