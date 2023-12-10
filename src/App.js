@@ -9,7 +9,7 @@ import Experience from "./components/Experience";
 import Work from "./components/Work";
 import Home from "./components/Home";
 import Login from "./components/Login";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import BlogPosts from "./components/BlogPosts";
 import ProjectPosts from "./components/ProjectPosts";
 import CTFPosts from "./components/CTFPosts";
@@ -18,7 +18,7 @@ import GithubBlogPost from "./components/GithubBlogPost";
 
 export default function App() {
   return (
-      <BrowserRouter basename="/upwork01">
+      <HashRouter basename="/upwork01">
           <Routes>
               <Route exact path='/' element={<Home/>} />
               <Route path='/login' element={<Login/>} />
@@ -26,8 +26,8 @@ export default function App() {
               <Route path='/project' element={<ProjectPosts />} />
               <Route path='/ctf' element={<CTFPosts />} />
               <Route path='/blog-detailed-post' element={<EachBlogPost />} />
-              <Route path='/github-blog-post-1' element={<GithubBlogPost />} />
+              <Route path='/github-detailed-blog-post' element={<GithubBlogPost />} />
           </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
