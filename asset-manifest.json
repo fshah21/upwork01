@@ -1,14 +1,14 @@
 {
-  "main.css": "/upwork01/static/css/main.bb23d06c.chunk.css",
-  "main.js": "/upwork01/static/js/main.95af8a4a.chunk.js",
-  "main.js.map": "/upwork01/static/js/main.95af8a4a.chunk.js.map",
+  "main.css": "/upwork01/static/css/main.def9718b.chunk.css",
+  "main.js": "/upwork01/static/js/main.b5c90364.chunk.js",
+  "main.js.map": "/upwork01/static/js/main.b5c90364.chunk.js.map",
   "runtime~main.js": "/upwork01/static/js/runtime~main.2d5cf5e3.js",
   "runtime~main.js.map": "/upwork01/static/js/runtime~main.2d5cf5e3.js.map",
   "static/js/2.f05ddb47.chunk.js": "/upwork01/static/js/2.f05ddb47.chunk.js",
   "static/js/2.f05ddb47.chunk.js.map": "/upwork01/static/js/2.f05ddb47.chunk.js.map",
   "index.html": "/upwork01/index.html",
-  "precache-manifest.52cd7e8fce57dcf2deea746408521702.js": "/upwork01/precache-manifest.52cd7e8fce57dcf2deea746408521702.js",
+  "precache-manifest.33890f2f33aefec8e6ae123993778449.js": "/upwork01/precache-manifest.33890f2f33aefec8e6ae123993778449.js",
   "service-worker.js": "/upwork01/service-worker.js",
-  "static/css/main.bb23d06c.chunk.css.map": "/upwork01/static/css/main.bb23d06c.chunk.css.map",
+  "static/css/main.def9718b.chunk.css.map": "/upwork01/static/css/main.def9718b.chunk.css.map",
   "static/media/cv.pdf": "/upwork01/static/media/cv.7af31bf5.pdf"
 }
