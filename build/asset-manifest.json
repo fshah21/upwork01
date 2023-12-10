@@ -1,14 +1,14 @@
 {
-  "main.css": "/upwork01/static/css/main.957036b0.chunk.css",
-  "main.js": "/upwork01/static/js/main.33098d76.chunk.js",
-  "main.js.map": "/upwork01/static/js/main.33098d76.chunk.js.map",
+  "main.css": "/upwork01/static/css/main.bb23d06c.chunk.css",
+  "main.js": "/upwork01/static/js/main.eebdbea8.chunk.js",
+  "main.js.map": "/upwork01/static/js/main.eebdbea8.chunk.js.map",
   "runtime~main.js": "/upwork01/static/js/runtime~main.2d5cf5e3.js",
   "runtime~main.js.map": "/upwork01/static/js/runtime~main.2d5cf5e3.js.map",
-  "static/js/2.0dfcb1ce.chunk.js": "/upwork01/static/js/2.0dfcb1ce.chunk.js",
-  "static/js/2.0dfcb1ce.chunk.js.map": "/upwork01/static/js/2.0dfcb1ce.chunk.js.map",
+  "static/js/2.f05ddb47.chunk.js": "/upwork01/static/js/2.f05ddb47.chunk.js",
+  "static/js/2.f05ddb47.chunk.js.map": "/upwork01/static/js/2.f05ddb47.chunk.js.map",
   "index.html": "/upwork01/index.html",
-  "precache-manifest.732515e519b316cca5b53c2f7a9ead10.js": "/upwork01/precache-manifest.732515e519b316cca5b53c2f7a9ead10.js",
+  "precache-manifest.8b46509a029f8b1afb865fc824dbacec.js": "/upwork01/precache-manifest.8b46509a029f8b1afb865fc824dbacec.js",
   "service-worker.js": "/upwork01/service-worker.js",
-  "static/css/main.957036b0.chunk.css.map": "/upwork01/static/css/main.957036b0.chunk.css.map",
+  "static/css/main.bb23d06c.chunk.css.map": "/upwork01/static/css/main.bb23d06c.chunk.css.map",
   "static/media/cv.pdf": "/upwork01/static/media/cv.7af31bf5.pdf"
 }
